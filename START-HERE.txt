@@ -1,0 +1,8 @@
+WINDOWS: double-click start-all.bat (the first run installs dependencies). Then open http://localhost:3000
+Requires Python 3.11+ and Node.js 20+.
+
+Configure provider keys in backend/.env (copy backend/.env.example first). Real .env files are ignored by Git and are not included in the public project. Never paste keys into source files or commit them.
+
+MAC/LINUX:
+  Terminal 1:  cd backend && python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt && cp .env.example .env && python -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
+  Terminal 2:  npm install && npm run dev
