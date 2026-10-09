@@ -1,4 +1,4 @@
-# Zerodha AI Intelligence
+﻿# Zerodha AI Intelligence
 
 A local portfolio and market research dashboard built with Next.js, React, TypeScript, FastAPI, SQLite, Groq, and Alpha Vantage. Review a portfolio you provide, explore its allocation and concentration, look up quotes on demand, research market news with citations, and model financial scenarios.
 
@@ -7,7 +7,6 @@ A local portfolio and market research dashboard built with Next.js, React, TypeS
 ## Project submission materials
 
 - **Project presentation and demo guide:** [Download the PDF](docs/Zerodha-AI-Intelligence-Project-Presentation-Demo-Guide.pdf).
-- **Project walkthrough video:** Link pending. Add the recorded video URL here before submitting the project.
 
 ## Features
 
@@ -92,7 +91,7 @@ From the project root, double-click `start-all.bat`. On first run it sets up dep
 
 If you prefer to start the services manually, use two PowerShell terminals from the project root.
 
-**Terminal 1 — backend:**
+**Terminal 1 â€” backend:**
 
 ```powershell
 cd backend
@@ -107,7 +106,7 @@ python -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 
 In `backend/.env`, set the provider keys you need (see [Configuration](#configuration)). Keep this terminal running.
 
-**Terminal 2 — frontend:**
+**Terminal 2 â€” frontend:**
 
 ```powershell
 npm install
@@ -120,7 +119,7 @@ Open [http://localhost:3000](http://localhost:3000). The backend API health endp
 
 ## Quick start on macOS/Linux
 
-**Terminal 1 — backend:**
+**Terminal 1 â€” backend:**
 
 ```bash
 cd backend
@@ -133,7 +132,7 @@ cp .env.example .env
 python -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
-**Terminal 2 — frontend** (project root):
+**Terminal 2 â€” frontend** (project root):
 
 ```bash
 npm install
@@ -221,3 +220,4 @@ Backend package dependencies are listed in `backend/requirements.txt`. `backend/
 ## License
 
 No license file is currently included. Unless a license is added, standard copyright applies and reuse or redistribution is not automatically granted.
+
